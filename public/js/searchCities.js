@@ -5,12 +5,9 @@ function filterTable() {
     var table = document.getElementById("citiesTable");
     var rows = table.getElementsByTagName("tr");
 
-    console.log(rows);
-
     // Itera sobre as linhas da tabela, ocultando as que não correspondem ao filtro
     for (var i = 1; i < rows.length; i++) {
         var cells = rows[i].getElementsByTagName("td");
-        console.log(cells);
         var cidade = cells[1].textContent.toLowerCase();
         var estado = cells[2].textContent.toLowerCase();
 

@@ -2,8 +2,6 @@ function validateStateCode() {
     var abbreviation = document.getElementsByName("uf")[0].value;
     var errorMessage = document.getElementById("abbreviationError");
 
-    console.log(errorMessage);
-
     // Validar se a sigla tem exatamente 2 caracteres
     if (abbreviation.trim() === "" || abbreviation.length !== 2) {
         errorMessage.classList.remove("hidden"); // Torna o span visível

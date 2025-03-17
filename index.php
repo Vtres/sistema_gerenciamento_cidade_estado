@@ -75,7 +75,6 @@ $valuesJson = json_encode($values);
   </script>
 
   <script src="./public/js/searchCities.js"></script>
-  <!-- <script src="./public/js/createGraph.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 
